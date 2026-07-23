@@ -577,11 +577,11 @@
                 <div class="col-lg-auto">
                     <div class="sec-btn btn-wrap">
                         <div class="client-group-thumb">
-                            <img src="assets/img/normal/client_group_1-2.png" alt="img">
+                            <img src="assets/img/normal/client_group_1-1.png" alt="BoxKing Clients">
                         </div>
                         <div class="testi-counter-wrap">
-                            <h3 class="testi-counter-number"><span class="counter-number">2</span>m+</h3>
-                            <p class="testi-counter-text">Success Peoples</p>                            
+                            <h3 class="testi-counter-number"><span class="counter-number">500</span>+</h3>
+                            <p class="testi-counter-text">Satisfied Clients</p>                            
                         </div>
                     </div>
                 </div>

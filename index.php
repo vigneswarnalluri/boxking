@@ -848,7 +848,7 @@
                         <div class="team-card_content">
                             <h4 class="team-card_title"><a href="team-details.php">Richard Jackson</a>
                             </h4>
-                            <span class="team-card_desig">CEO of Construz</span>
+                            <span class="team-card_desig">CEO of BoxKing</span>
                             
                         </div>
                     </div>

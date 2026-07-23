@@ -97,7 +97,7 @@
                             </div>
                             <div class="media-body">
                                 <h3 class="author-name"><a href="team-details.php">John Maxwell</a></h3>
-                                <span class="author-desig">CEO of Construz</span>
+                                <span class="author-desig">CEO of BoxKing</span>
                                 <p class="author-text">Blanditiis praesentium voluptatum deleniti atque corrupti quos dolores at vero eos accusamus iusto odio dignissimos ducimus blanditiis praesentium.</p>
                                 <div class="social-btn style4">
                                     <a href="https://www.twitter.com/"><i class="ri-twitter-x-line"></i></a>

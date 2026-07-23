@@ -62,7 +62,7 @@
     ==============================-->
     <section class="contact-area-2 space-bottom overflow-hidden">        
         <div class="container">
-            <div class="contact-wrap2 space overflow-hidden" data-bg-src="assets/img/bg/contact-bg3-1.png">
+            <div class="contact-wrap2 space overflow-hidden" data-bg-src="assets/img/hero_container.png">
                 <div class="section-animation-shape1-1 shape-mockup animation-infinite" data-top="0" data-left="0" data-bg-src="assets/img/shape/global-line-shape1.png">
                 </div>
                 <div class="row gy-60 justify-content-lg-end justify-content-center">

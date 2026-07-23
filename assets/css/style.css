@@ -17454,3 +17454,38 @@ li.trackback {
   font-size: 13px !important;
   white-space: nowrap !important;
 }
+
+/* Contact Section Premium Container Background Overlay */
+.contact-wrap2 {
+  position: relative !important;
+  background-size: cover !important;
+  background-position: center center !important;
+  background-repeat: no-repeat !important;
+  border-radius: 12px !important;
+  overflow: hidden !important;
+}
+.contact-wrap2::before {
+  content: "" !important;
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  bottom: 0 !important;
+  background: linear-gradient(135deg, rgba(17, 17, 17, 0.88) 0%, rgba(17, 17, 17, 0.65) 50%, rgba(17, 17, 17, 0.88) 100%) !important;
+  z-index: 1 !important;
+}
+.contact-wrap2 > .row,
+.contact-wrap2 > div {
+  position: relative !important;
+  z-index: 2 !important;
+}
+.contact-wrap2 .title-area .sec-title {
+  color: #ffffff !important;
+}
+.contact-wrap2 .contact-form-wrap {
+  background: rgba(17, 17, 17, 0.75) !important;
+  backdrop-filter: blur(8px) !important;
+  border: 1px solid rgba(212, 175, 55, 0.3) !important;
+  padding: 40px !important;
+  border-radius: 12px !important;
+}

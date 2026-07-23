@@ -1,6 +1,7 @@
 <?php
     $title='Contact Us';
     $subTitle='Contact Us';
+    $bg_src='assets/img/contact_bg.png';
 ?>
 
 <?php include './layouts/layout-top.php'?>

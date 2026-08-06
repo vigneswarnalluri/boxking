@@ -9853,6 +9853,15 @@ li.trackback {
 .about-counter-wrap .client-group-thumb {
   margin-top: 40px;
 }
+.client-group-thumb {
+  max-width: 150px;
+  display: inline-block;
+}
+.client-group-thumb img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
 @media (max-width: 575px) {
   .about-counter-wrap {
     padding: 11px 30px 30px;

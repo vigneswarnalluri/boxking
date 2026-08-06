@@ -5,8 +5,11 @@
                     <a href="index.php"><img src="assets/img/boxking-logo.png" alt="BoxKing Modular Solutions" class="boxking-logo-footer"></a>
                 </div>
                 <div class="subscribe-box">
-                    <p class="subscribe-box_text text-gold fw-bold" style="font-size: 1.1rem;">Rule Your Space. Build Your Kingdom.</p>
-                    <p class="text-light opacity-75 small">Get quote estimates and modern container building updates.</p>
+                    <p class="subscribe-box_text">Subscribe for the latest news. Stay updated on the latest trends.</p>
+                    <form class="newsletter-form">
+                        <input class="form-control" type="email" placeholder="Enter your email..." required="">
+                        <button type="submit" class="btn style2">SUBCRIBE<i class="ri-arrow-right-up-line"></i></button>
+                    </form>
                 </div>
             </div>
             <div class="widget-area">

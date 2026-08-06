@@ -17476,7 +17476,7 @@ li.trackback {
 }
 
 /* Contact Section Premium Container Background Overlay */
-.contact-wrap2 {
+.contact-wrap2.contact-page-wrap {
   position: relative !important;
   background-size: cover !important;
   background-position: center center !important;
@@ -17484,7 +17484,7 @@ li.trackback {
   border-radius: 12px !important;
   overflow: hidden !important;
 }
-.contact-wrap2::before {
+.contact-wrap2.contact-page-wrap::before {
   content: "" !important;
   position: absolute !important;
   top: 0 !important;
@@ -17494,15 +17494,15 @@ li.trackback {
   background: linear-gradient(135deg, rgba(17, 17, 17, 0.88) 0%, rgba(17, 17, 17, 0.65) 50%, rgba(17, 17, 17, 0.88) 100%) !important;
   z-index: 1 !important;
 }
-.contact-wrap2 > .row,
-.contact-wrap2 > div {
+.contact-wrap2.contact-page-wrap > .row,
+.contact-wrap2.contact-page-wrap > div {
   position: relative !important;
   z-index: 2 !important;
 }
-.contact-wrap2 .title-area .sec-title {
+.contact-wrap2.contact-page-wrap .title-area .sec-title {
   color: #ffffff !important;
 }
-.contact-wrap2 .contact-form-wrap {
+.contact-wrap2.contact-page-wrap .contact-form-wrap {
   background: rgba(17, 17, 17, 0.75) !important;
   backdrop-filter: blur(8px) !important;
   border: 1px solid rgba(212, 175, 55, 0.3) !important;

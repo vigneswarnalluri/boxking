@@ -2,6 +2,7 @@
     $title='Construction process 
             <br/> streamlines';
     $subTitle='Construction process streamlines';
+    $bg_src='assets/img/contact_bg.png';
 ?>
 
 <?php include './layouts/layout-top.php'?>

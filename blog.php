@@ -1,6 +1,7 @@
 <?php
     $title='Our Blogs';
     $subTitle='Our Blogs';
+    $bg_src='assets/img/contact_bg.png';
 ?>
 
 <?php include './layouts/layout-top.php'?>

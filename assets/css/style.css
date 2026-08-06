@@ -17543,3 +17543,23 @@ li.trackback {
     background: #ffffff !important;
   }
 }
+/* Dark Text styling for Hero-3 to match the light theme background image */
+.hero-style3 .hero-subtitle {
+  color: #111111 !important;
+}
+.hero-style3 .hero-subtitle img {
+  filter: brightness(0) !important;
+}
+.hero-style3 .hero-title {
+  color: #111111 !important;
+}
+.hero-style3 .hero-title.style2 {
+  -webkit-text-stroke: 1.5px #111111 !important;
+  color: transparent !important;
+}
+.hero-style3 .hero-text {
+  color: #333333 !important;
+}
+.hero-3 .hero-shadow-text {
+  color: rgba(0, 0, 0, 0.04) !important;
+}

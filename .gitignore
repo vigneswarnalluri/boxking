@@ -4,3 +4,4 @@ storage/
 *.log
 composer.phar
 image copy *.png
+ChatGPT Image *.png

@@ -1,6 +1,7 @@
 <?php
     $title='Team Details';
     $subTitle='Team Details';
+    $bg_src='assets/img/contact_bg.png';
 ?>
 
 <?php include './layouts/layout-top.php'?>

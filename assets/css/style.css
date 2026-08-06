@@ -1514,6 +1514,7 @@ input::-webkit-inner-spin-button {
 /* Firefox */
 input[type=number] {
   -moz-appearance: textfield;
+  appearance: textfield;
 }
 
 input[type=checkbox] {
@@ -1925,10 +1926,15 @@ textarea.is-invalid {
 }
 .mobile-menu-wrapper .menu-toggle i {
   font-size: 24px;
+  color: var(--theme-color) !important;
+  transition: color 0.3s ease;
 }
 .mobile-menu-wrapper .menu-toggle:hover {
   background-color: var(--theme-color);
   color: var(--white-color);
+}
+.mobile-menu-wrapper .menu-toggle:hover i {
+  color: var(--white-color) !important;
 }
 .mobile-menu-wrapper .mobile-menu-area {
   width: 100%;
@@ -2033,6 +2039,31 @@ textarea.is-invalid {
   .mobile-menu > ul {
     padding: 0 20px;
   }
+}
+/* Mobile Menu dark theme overrides */
+.mobile-menu-area.bg-dark-black .mobile-menu ul li {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+.mobile-menu-area.bg-dark-black .mobile-menu ul li li:first-child {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+.mobile-menu-area.bg-dark-black .mobile-menu ul li a {
+  color: var(--white-color);
+}
+.mobile-menu-area.bg-dark-black .mobile-menu ul li a:hover {
+  color: var(--theme-color);
+}
+.mobile-menu-area.bg-dark-black .mobile-menu ul li.active-class > a {
+  color: var(--theme-color);
+}
+.mobile-menu-area.bg-dark-black .mobile-menu ul .submenu-item-has-children > a .mean-expand-class {
+  color: var(--white-color);
+}
+.mobile-menu-area.bg-dark-black .mobile-menu ul .submenu-item-has-children > a .mean-expand-class:hover {
+  color: var(--theme-color);
+}
+.mobile-menu-area.bg-dark-black .mobile-menu ul .submenu-item-has-children.active-class > a .mean-expand-class {
+  color: var(--theme-color);
 }
 /*=================================
     03. Utilities
@@ -4487,9 +4518,7 @@ a.text-theme:hover,
   color: var(--title-color);
 }
 
-.widget_project_info {
-  /* Medium devices */
-}
+
 .widget_project_info:after {
   display: none;
 }
@@ -5234,9 +5263,7 @@ ul.wp-block-latest-posts li:last-child {
   background: transparent;
   color: var(--white-color);
 }
-.newsletter-form.style2 {
-  /* Extra small devices */
-}
+
 .newsletter-form.style2 .form-group input {
   border: 2px solid #e1e1e1;
   border-right: 0;
@@ -9905,10 +9932,7 @@ li.trackback {
   }
 }
 
-.about_shape_1-1 {
-  /* Extra large devices */
-  /* Medium Large devices */
-}
+
 @media (max-width: 1500px) {
   .about_shape_1-1 {
     width: 250px;
@@ -10645,9 +10669,7 @@ li.trackback {
 
 /*------------------- 4.00. Testimonial  -------------------*/
 /* Testimonial 1 ---------------------------------- */
-.testimonial-area-1 {
-  /* Large devices */
-}
+
 @media (max-width: 1199px) {
   .testimonial-area-1 {
     background-image: none !important;
@@ -11088,9 +11110,7 @@ li.trackback {
   }
 }
 
-.testi-slider3 {
-  /* Medium devices */
-}
+
 .testi-slider3 .slick-slide.slick-center .testi-card.style3 {
   background: var(--title-color);
 }
@@ -11480,9 +11500,7 @@ li.trackback {
   z-index: -1;
 }
 
-.client_shape_1-1 {
-  /* Extra large devices */
-}
+
 @media (max-width: 1500px) {
   .client_shape_1-1 {
     display: none;
@@ -11695,17 +11713,13 @@ li.trackback {
   margin-right: 20px;
   margin-top: 5px;
 }
-.checklist.mb-40 {
-  /* Large devices */
-}
+
 @media (max-width: 1199px) {
   .checklist.mb-40 {
     margin-bottom: 32px;
   }
 }
-.checklist.mb-45 {
-  /* Large devices */
-}
+
 @media (max-width: 1199px) {
   .checklist.mb-45 {
     margin-bottom: 35px;
@@ -14100,9 +14114,7 @@ li.trackback {
   }
 }
 
-.portfolio-slider1 .slick-current .portfolio-card {
-  /* Small devices */
-}
+
 .portfolio-slider1 .slick-current .portfolio-card .portfolio-card-thumb .icon-btn {
   opacity: 1;
   top: 40px;
@@ -14630,9 +14642,7 @@ li.trackback {
 }
 
 /* Process Area 2 ---------------------------------- */
-.process_shape_2-1 {
-  /* Extra large devices */
-}
+
 @media (max-width: 1500px) {
   .process_shape_2-1 {
     display: none;
@@ -16187,6 +16197,7 @@ li.trackback {
 }
 .cart_table .qty-input[type=number] {
   -moz-appearance: textfield;
+  appearance: textfield;
 }
 .cart_table .actions {
   text-align: right;

@@ -815,6 +815,7 @@ input::-webkit-inner-spin-button {
 /* Firefox */
 input[type=number] {
   -moz-appearance: textfield;
+  appearance: textfield;
 }
 
 input[type=checkbox] {
@@ -1235,6 +1236,9 @@ textarea.is-invalid {
   background-color: var(--title-color);
   color: var(--white-color);
 }
+.mobile-menu-wrapper .menu-toggle i {
+  color: var(--white-color) !important;
+}
 .mobile-menu-wrapper .mobile-menu-area {
   width: 100%;
   max-width: 310px;
@@ -1334,7 +1338,7 @@ textarea.is-invalid {
   width: 22px;
   height: 22px;
   line-height: 22px;
-  display: inline-block;
+  display: block;
   text-align: center;
   font-size: 12px;
   border-radius: 50px;
@@ -1363,6 +1367,31 @@ textarea.is-invalid {
   .mobile-menu > ul {
     padding: 0 20px;
   }
+}
+/* Mobile Menu dark theme overrides */
+.mobile-menu-area.bg-dark-black .mobile-menu ul li {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+.mobile-menu-area.bg-dark-black .mobile-menu ul li li:first-child {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+.mobile-menu-area.bg-dark-black .mobile-menu ul li a {
+  color: var(--white-color);
+}
+.mobile-menu-area.bg-dark-black .mobile-menu ul li a:hover {
+  color: var(--theme-color);
+}
+.mobile-menu-area.bg-dark-black .mobile-menu ul li.active-class > a {
+  color: var(--theme-color);
+}
+.mobile-menu-area.bg-dark-black .mobile-menu ul .submenu-item-has-children > a .mean-expand-class {
+  color: var(--white-color);
+}
+.mobile-menu-area.bg-dark-black .mobile-menu ul .submenu-item-has-children > a .mean-expand-class:hover {
+  color: var(--theme-color);
+}
+.mobile-menu-area.bg-dark-black .mobile-menu ul .submenu-item-has-children.active-class > a .mean-expand-class {
+  color: var(--theme-color);
 }
 /*=================================
     03. Utilities
@@ -6511,6 +6540,7 @@ table.woocommerce-product-attributes {
 }
 .cart_table .qty-input[type=number] {
   -moz-appearance: textfield;
+  appearance: textfield;
 }
 .cart_table .actions {
   text-align: right;
@@ -9279,17 +9309,13 @@ span.select2-selection.select2-selection--single:focus {
   font-size: 16px;
   color: var(--body-color);
 }
-.checklist.mb-40 {
-  /* Large devices */
-}
+
 @media (max-width: 1199px) {
   .checklist.mb-40 {
     margin-bottom: 32px;
   }
 }
-.checklist.mb-45 {
-  /* Large devices */
-}
+
 @media (max-width: 1199px) {
   .checklist.mb-45 {
     margin-bottom: 35px;

@@ -45,10 +45,15 @@
     border-radius: 0;
     i {
       font-size: 24px;
+      color: $theme-color !important;
+      transition: color 0.3s ease;
     }
     &:hover {
       background-color: $theme-color;
       color: $white-color;
+      i {
+        color: $white-color !important;
+      }
     }
   }
 
@@ -188,5 +193,54 @@
 
   .mobile-menu>ul {
     padding: 0 20px;
+  }
+}
+
+/* Mobile Menu dark theme overrides */
+.mobile-menu-area.bg-dark-black {
+  .mobile-menu {
+    ul {
+      li {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+
+        li:first-child {
+          border-top: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        a {
+          color: $white-color;
+
+          &:hover {
+            color: $theme-color;
+          }
+        }
+
+        &.active-class {
+          > a {
+            color: $theme-color;
+          }
+        }
+      }
+
+      .submenu-item-has-children {
+        > a {
+          .mean-expand-class {
+            color: $white-color;
+
+            &:hover {
+              color: $theme-color;
+            }
+          }
+        }
+
+        &.active-class {
+          > a {
+            .mean-expand-class {
+              color: $theme-color;
+            }
+          }
+        }
+      }
+    }
   }
 }

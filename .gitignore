@@ -3,3 +3,4 @@ vendor/
 storage/
 *.log
 composer.phar
+image copy *.png

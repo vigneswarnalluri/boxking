@@ -53,7 +53,7 @@
                         </div>
                         <div class="about-grid-details">
                             <h4 class="title">Our Vision</h4>
-                            <p class="text">Rule Your Space. Build Your Kingdom — leading the modular container industry with master welding craftsmanship and innovation.</p>
+                            <p class="text">Rule Your Space. Build Your Kingdom, leading the modular container industry with master welding craftsmanship and innovation.</p>
                         </div>
                     </div>
                     <div class="btn-group mt-60">
@@ -477,8 +477,8 @@
     </div>
 
     <!--==============================
-    Team Area  
-    ==============================-->
+    Team Area (Hidden)
+    ==============================
     <div class="team-area-1 space">
         <div class="section-animation-shape1-1 shape-mockup animation-infinite" data-bottom="0" data-bg-src="assets/img/shape/global-line-shape2.png">
         </div>
@@ -570,6 +570,7 @@
             </div>
         </div>
     </div>
+    -->
 
     <!--==============================
     Client Area  

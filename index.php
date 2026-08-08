@@ -41,9 +41,9 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <span class="hero-subtitle">Rule Your Space. Build Your Kingdom. <img src="assets/img/icon/long-arrow-right2.svg" alt="img"></span>
-                        <h1 class="hero-title">Premium Modular</h1>
-                        <h1 class="hero-title style2">Building Solutions</h1>
-                        <p class="hero-text">Custom Container Homes, Offices &amp; Modular Buildings Built with Strength, Precision and Innovation.</p>
+                        <h1 class="hero-title">RULE YOUR SPACE</h1>
+                        <h1 class="hero-title style2">BUILD YOUR KINGDOM</h1>
+                        <p class="hero-text">Fortified modular structures built with premium shipping container frames, featuring resilient steel skeletons trusted to protect the world's essentials, re-engineered for your legacy.</p>
                         <a href="contact.php" class="btn style2">GET FREE QUOTE <i class="ri-arrow-right-up-line"></i></a>
                     </div>
                 </div>
@@ -52,12 +52,14 @@
     </div>
     <!--======== / Hero Section ========-->
 
+
+
     <!--==============================
     About Area  
     ==============================-->
     <div class="about-area-3 space overflow-hidden" id="about">
         <div class="container">
-            <div class="row gy-80 gx-100 align-items-end">                
+            <div class="row gy-80 gx-100 align-items-start">                
                 <div class="col-xl-7">
                     <div class="about-wrap3">
                         <div class="title-area mb-25">
@@ -68,12 +70,12 @@
                         </div>
                         <div class="checklist mb-35">
                             <ul>
-                                <li><img src="assets/img/icon/about-checklsit-icon1-1.svg" alt="img">We exclusively use premium One-Trip shipping containers for maximum durability.
-                                </li>
-                                <li><img src="assets/img/icon/about-checklsit-icon1-1.svg" alt="img">Certified combination welding and master structural carpentry under one roof.</li>
+                                <li><img src="assets/img/icon/about-checklsit-icon1-1.svg" alt="img"><span><strong>One-Trip Container Guarantee:</strong> Hand-picked from brand-new shells, 100% free from previous hazardous storage, built for royalty.</span></li>
+                                <li><img src="assets/img/icon/about-checklsit-icon1-1.svg" alt="img"><span><strong>Fortified Architecture:</strong> Inherent structural integrity trusted to secure and transport critical necessities everyday.</span></li>
+                                <li><img src="assets/img/icon/about-checklsit-icon1-1.svg" alt="img"><span><strong>Legacy of Excellence:</strong> Master carpentry and certified heavy combination welding under one roof.</span></li>
                             </ul>
                         </div>
-                        <div class="btn-wrap">
+                        <div class="btn-wrap" style="gap: 30px;">
                             <div class="cta-grid-wrap">
                                 <div class="icon-btn">
                                     <i class="ri-phone-fill"></i>
@@ -85,24 +87,28 @@
                             </div>
                             <div class="about-author-wrap">
                                 <div class="author-thumb">
-                                    <img src="assets/img/boxking-logo.png" alt="BoxKing" style="max-height: 45px; object-fit: contain;">
+                                    <img src="assets/img/boxking/founder_avatar.png" alt="img">
                                 </div>
                                 <div class="media-body">
-                                    <div class="author-text">BoxKing Modular Solutions</div>
+                                    <div class="author-sign">
+                                        <img src="assets/img/normal/about_3-3.png" alt="img">
+                                    </div>
+                                    <div class="author-text">Founder of BoxKing</div>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="about-thumb3 mt-70"> 
                         <div class="video-wrap about-img-1">
-                            <img src="assets/img/about_modular.png" alt="Certified Modular Fabrication">
+                            <img src="assets/img/boxking/about_modular_landscape.png" alt="Certified Modular Fabrication">
+                            <a href="https://www.youtube.com/watch?v=Mp8IXI1kzvQ" class="play-btn style6 popup-video"><i class="ri-play-fill"></i></a>
                         </div>
                     </div>                                  
                 </div>
                 <div class="col-xl-5 col-md-8">
                     <div class="about-thumb3 mb-30"> 
                         <div class="about-img-2" data-mask-src="assets/img/normal/about_mask3-2.png">
-                            <img src="assets/img/container_office.png" alt="Container Office Build">
+                            <img src="assets/img/boxking/container_office_portrait.png" alt="Container Office Build">
                         </div>
                     </div>
                     <p>Sales, fabrication, customization, leasing, and installation of modular buildings, portable cabins, container homes, and custom steel structures.</p>
@@ -402,11 +408,11 @@
                             <div class="portfolio-card-details">
                                 <div class="media-left">
                                     <span class="portfolio-card-subtitle">Starting from $12,950</span>
-                                    <h4 class="portfolio-card-title"><a href="#contact">DIY Container Kits</a></h4>
+                                    <h4 class="portfolio-card-title"><a href="#">DIY Container Kits</a></h4>
                                     <p class="portofolio-card-text">Pre-engineered container modification kits &amp; components</p>
                                 </div>  
                             </div>
-                            <a href="#contact" class="btn">Get Details <i class="ri-arrow-right-up-line"></i></a>                          
+                            <button type="button" class="btn order-now-btn" data-product="DIY Container Kit" data-base-price="12950">ORDER &amp; CONFIGURE <i class="ri-arrow-right-up-line"></i></button>                          
                         </div>
                     </div>
                     <div class="col-lg-6">
@@ -418,11 +424,11 @@
                             <div class="portfolio-card-details">
                                 <div class="media-left">
                                     <span class="portfolio-card-subtitle">Starting from $19,950</span>
-                                    <h4 class="portfolio-card-title"><a href="#contact">Container Office</a></h4>
+                                    <h4 class="portfolio-card-title"><a href="#">Container Office</a></h4>
                                     <p class="portofolio-card-text">Turnkey site offices with full insulation &amp; HVAC</p>
                                 </div>  
                             </div>
-                            <a href="#contact" class="btn">Get Details <i class="ri-arrow-right-up-line"></i></a>                          
+                            <button type="button" class="btn order-now-btn" data-product="Container Office" data-base-price="19950">ORDER &amp; CONFIGURE <i class="ri-arrow-right-up-line"></i></button>                          
                         </div>
                     </div>
                     <div class="col-lg-6">
@@ -434,11 +440,11 @@
                             <div class="portfolio-card-details">
                                 <div class="media-left">
                                     <span class="portfolio-card-subtitle">Starting from $29,950</span>
-                                    <h4 class="portfolio-card-title"><a href="#contact">Container Home</a></h4>
+                                    <h4 class="portfolio-card-title"><a href="#">Container Home</a></h4>
                                     <p class="portofolio-card-text">Modern luxury multi-unit residential container living</p>
                                 </div>  
                             </div>
-                            <a href="#contact" class="btn">Get Details <i class="ri-arrow-right-up-line"></i></a>                          
+                            <button type="button" class="btn order-now-btn" data-product="Container Home" data-base-price="29950">ORDER &amp; CONFIGURE <i class="ri-arrow-right-up-line"></i></button>                          
                         </div>
                     </div>
                     <div class="col-lg-6">
@@ -450,11 +456,11 @@
                             <div class="portfolio-card-details">
                                 <div class="media-left">
                                     <span class="portfolio-card-subtitle">Custom Fabrication</span>
-                                    <h4 class="portfolio-card-title"><a href="#contact">Portable Site Cabins</a></h4>
+                                    <h4 class="portfolio-card-title"><a href="#">Portable Site Cabins</a></h4>
                                     <p class="portofolio-card-text">Heavy-duty remote site accommodation units</p>
                                 </div>  
                             </div>
-                            <a href="#contact" class="btn">Get Details <i class="ri-arrow-right-up-line"></i></a>                          
+                            <button type="button" class="btn order-now-btn" data-product="Portable Site Cabin" data-base-price="15500">ORDER &amp; CONFIGURE <i class="ri-arrow-right-up-line"></i></button>                          
                         </div>
                     </div>
                 </div>
@@ -501,7 +507,7 @@
     ==============================-->
     <section class="contact-area-2 space-bottom overflow-hidden" id="contact">        
         <div class="container">
-            <div class="contact-wrap2 contact-page-wrap space overflow-hidden" data-bg-src="assets/img/hero_container.png">
+            <div class="contact-wrap2 space overflow-hidden" data-bg-src="assets/img/bg/contact-bg3-1.png">
                 <div class="section-animation-shape1-1 shape-mockup animation-infinite" data-top="0" data-left="0" data-bg-src="assets/img/shape/global-line-shape1.png">
                 </div>
                 <div class="row gy-60 justify-content-lg-end justify-content-center">
@@ -814,8 +820,8 @@
     </div> 
 
     <!--==============================
-    Team Area  
-    ==============================-->
+    Team Area (Hidden)
+    ==============================
     <div class="team-area-2 space-bottom">
         <div class="container">
             <div class="row justify-content-between align-items-center">
@@ -895,6 +901,7 @@
             </div>
         </div>
     </div>
+    -->
 
     <!--==============================
     CTA Area 03  
@@ -1082,6 +1089,107 @@
     ============================== -->
     <?php include './partials/script.php'?>
 
+    <!--==============================
+    Configurator Modal
+    ============================== -->
+    <div id="configuratorModal" class="bk-modal">
+        <div class="bk-modal-content">
+            <span class="bk-close">&times;</span>
+            <h3 class="modal-section-title" id="configProductTitle">Configure Your Container Unit</h3>
+            <form id="configuratorForm">
+                <input type="hidden" id="configBasePrice" value="0">
+                <div class="config-group">
+                    <label class="config-label">Select Container Length</label>
+                    <select class="config-select" id="configLength">
+                        <option value="20" data-extra="0">20ft High-Cube (Standard)</option>
+                        <option value="40" data-extra="7500">40ft High-Cube (+$7,500)</option>
+                    </select>
+                </div>
+                <div class="config-group">
+                    <label class="config-label">Interior Insulation Option</label>
+                    <select class="config-select" id="configInsulation">
+                        <option value="Standard Batt" data-extra="0">Standard Batt Insulation (Included)</option>
+                        <option value="Premium Spray Foam" data-extra="2400">Premium Spray Foam (+$2,400)</option>
+                    </select>
+                </div>
+                <div class="config-group">
+                    <label class="config-label">Electrical &amp; HVAC Packages</label>
+                    <select class="config-select" id="configHVAC">
+                        <option value="Basic Electrical" data-extra="0">Basic 100A Service &amp; LED Lighting (Included)</option>
+                        <option value="Turnkey HVAC Combo" data-extra="3800">Mini-Split HVAC &amp; Premium Fixtures (+$3,800)</option>
+                    </select>
+                </div>
+                <div style="background-color: #f7f8fa; padding: 20px; border-left: 4px solid #d4af37; margin: 25px 0;">
+                    <div style="display: flex; justify-content: space-between; font-weight: 700; font-size: 18px; color: #15161c;">
+                        <span>Estimated Total:</span>
+                        <span id="configTotalPrice" class="text-theme">$19,950</span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 mb-2">
+                        <input type="text" class="config-input" placeholder="Your Name" required="" id="configName">
+                    </div>
+                    <div class="col-md-6 mb-2">
+                        <input type="email" class="config-input" placeholder="Email Address" required="" id="configEmail">
+                    </div>
+                </div>
+                <button type="submit" class="btn w-100 mt-20" style="margin-top: 15px;">PLACE ORDER / SUBMIT DETAILS <i class="ri-arrow-right-line"></i></button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Configurator Handler -->
+    <script>
+        $(document).ready(function() {
+            var modal = $('#configuratorModal');
+            var closeBtn = $('.bk-close');
+
+            $('.order-now-btn').on('click', function() {
+                var productName = $(this).attr('data-product');
+                var basePrice = parseInt($(this).attr('data-base-price'));
+
+                $('#configProductTitle').text('Configure ' + productName);
+                $('#configBasePrice').val(basePrice);
+                
+                // Reset select choices
+                $('#configLength').val('20');
+                $('#configInsulation').val('Standard Batt');
+                $('#configHVAC').val('Basic Electrical');
+
+                updatePrice();
+                modal.css('display', 'flex');
+            });
+
+            closeBtn.on('click', function() {
+                modal.hide();
+            });
+
+            $(window).on('click', function(e) {
+                if ($(e.target).is(modal)) {
+                    modal.hide();
+                }
+            });
+
+            $('#configLength, #configInsulation, #configHVAC').on('change', function() {
+                updatePrice();
+            });
+
+            function updatePrice() {
+                var base = parseInt($('#configBasePrice').val());
+                var extraLength = parseInt($('#configLength option:selected').data('extra') || 0);
+                var extraIns = parseInt($('#configInsulation option:selected').data('extra') || 0);
+                var extraHVAC = parseInt($('#configHVAC option:selected').data('extra') || 0);
+                var total = base + extraLength + extraIns + extraHVAC;
+                $('#configTotalPrice').text('$' + total.toLocaleString());
+            }
+
+            $('#configuratorForm').on('submit', function(e) {
+                e.preventDefault();
+                alert('Thank you! Your royal configuration inquiry has been submitted. A BoxKing specialist will review your selections and contact you within 24 hours.');
+                modal.hide();
+            });
+        });
+    </script>
 </body>
 
 </html>

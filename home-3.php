@@ -1,4 +1,4 @@
-<!doctype html>
+﻿<!doctype html>
 <html class="no-js" lang="zxx">
 
     <?php include './partials/head.php'?>
@@ -1080,7 +1080,8 @@
         </div>
     </div> 
 
-    <!--==============================
+    <?php if (false) : ?>
+<!--==============================
     Team Area  
     ==============================-->
     <div class="team-area-2 space-bottom">
@@ -1163,7 +1164,8 @@
         </div>
     </div>
 
-    <!--==============================
+    <?php endif; ?>
+<!--==============================
     CTA Area 03  
     ==============================-->
     <div class="cta-area-3">

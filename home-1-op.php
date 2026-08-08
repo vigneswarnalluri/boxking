@@ -1,4 +1,4 @@
-<?php
+﻿<?php
     $breadcrumb ='false';
     $header ='header2';
 ?>
@@ -758,7 +758,8 @@
         </div>
     </div>
 
-    <!--==============================
+    <?php if (false) : ?>
+<!--==============================
     Team Area  
     ==============================-->
     <div class="team-area-1 space">
@@ -853,7 +854,8 @@
         </div>
     </div>
 
-    <!--==============================
+    <?php endif; ?>
+<!--==============================
     Client Area  
     ==============================-->
     <div class="client-area-1 text-center space overflow-hidden" data-bg-src="assets/img/bg/client-bg1-1.png" data-overlay="title" data-opacity="9">

@@ -227,6 +227,15 @@
     img {
         width: 100%;
     }
+    .about-img-1 {
+        border-radius: 0;
+        img {
+            aspect-ratio: 16 / 9;
+            height: auto;
+            object-fit: cover;
+            border-radius: 0;
+        }
+    }
 }
 .about-author-wrap {
     display: flex;

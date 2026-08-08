@@ -15,7 +15,7 @@
                     <div class="shop-sort-bar">
                         <div class="row justify-content-between align-items-center">
                             <div class="col-md">
-                                <p class="woocommerce-result-count">Showing 1–15 of 52 results</p>
+                                <p class="woocommerce-result-count">Showing 1-15 of 52 results</p>
                             </div>
 
                             <div class="col-md-auto">
@@ -289,7 +289,7 @@
                             <div class="price_slider_wrapper">
                                 <div class="price_slider"></div>
                                 <div class="price_label">
-                                    Price: <span class="from">$0</span> — <span class="to">$70</span>
+                                    Price: <span class="from">$0</span> - <span class="to">$70</span>
                                     <button type="submit" class="button btn">Filter</button>
                                 </div>
                             </div>

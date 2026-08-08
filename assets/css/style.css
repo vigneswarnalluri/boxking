@@ -10054,6 +10054,15 @@ li.trackback {
 .about-thumb3 img {
   width: 100%;
 }
+.about-thumb3 .about-img-1 {
+  border-radius: 0;
+}
+.about-thumb3 .about-img-1 img {
+  aspect-ratio: 16 / 9;
+  height: auto;
+  object-fit: cover;
+  border-radius: 0;
+}
 
 .about-author-wrap {
   display: flex;
@@ -17496,7 +17505,7 @@ li.trackback {
   z-index: 1 !important;
 }
 .contact-wrap2.contact-page-wrap > .row,
-.contact-wrap2.contact-page-wrap > div {
+.contact-wrap2.contact-page-wrap > div:not(.shape-mockup) {
   position: relative !important;
   z-index: 2 !important;
 }
@@ -17528,7 +17537,7 @@ li.trackback {
   z-index: 1 !important;
 }
 .contact-wrap2:not(.contact-page-wrap) > .row,
-.contact-wrap2:not(.contact-page-wrap) > div {
+.contact-wrap2:not(.contact-page-wrap) > div:not(.shape-mockup) {
   position: relative !important;
   z-index: 2 !important;
 }
@@ -17562,4 +17571,358 @@ li.trackback {
 }
 .hero-3 .hero-shadow-text {
   color: rgba(0, 0, 0, 0.04) !important;
+}
+
+/* Ensure the animated shape in contact section sits above the background overlay and is fully visible */
+.contact-wrap2 .section-animation-shape1-1 {
+  z-index: 3 !important;
+}
+
+/* ==========================================================================
+   BoxKing Royal Gateway, Configurator & Build Tracker Styles
+   ========================================================================== */
+
+/* Split Gateway Portal */
+.gateway-section {
+  position: relative;
+  z-index: 10;
+  margin-top: -60px; /* Overlap slightly with hero */
+  padding-bottom: 60px;
+}
+
+.gateway-card {
+  position: relative;
+  background-color: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  padding: 40px;
+  transition: all 0.4s ease;
+  overflow: hidden;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.gateway-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 40px rgba(212, 175, 55, 0.15);
+  border-color: #d4af37;
+}
+
+.gateway-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 4px;
+  height: 100%;
+  background-color: #d4af37;
+  transition: all 0.3s ease;
+}
+
+.gateway-card:hover::before {
+  width: 8px;
+}
+
+.gateway-card .icon-wrap {
+  width: 70px;
+  height: 70px;
+  background-color: rgba(212, 175, 55, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin-bottom: 25px;
+  color: #d4af37;
+  font-size: 32px;
+  transition: all 0.3s ease;
+}
+
+.gateway-card:hover .icon-wrap {
+  background-color: #d4af37;
+  color: #ffffff;
+}
+
+.gateway-card-title {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  color: #15161c;
+}
+
+.gateway-card-text {
+  color: #555555;
+  font-size: 15px;
+  line-height: 1.6;
+  margin-bottom: 25px;
+}
+
+/* Configurator Modal */
+.bk-modal {
+  display: none;
+  position: fixed;
+  z-index: 9999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(5px);
+  align-items: center;
+  justify-content: center;
+}
+
+.bk-modal-content {
+  background-color: #ffffff;
+  margin: auto;
+  padding: 40px;
+  border-top: 5px solid #d4af37;
+  width: 90%;
+  max-width: 650px;
+  position: relative;
+  box-shadow: 0 15px 50px rgba(0, 0, 0, 0.2);
+  border-radius: 0;
+}
+
+.bk-close {
+  color: #15161c;
+  position: absolute;
+  right: 25px;
+  top: 20px;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.bk-close:hover {
+  color: #d4af37;
+}
+
+.modal-section-title {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 25px;
+  color: #15161c;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  padding-bottom: 10px;
+}
+
+.config-group {
+  margin-bottom: 20px;
+}
+
+.config-label {
+  font-size: 14px;
+  font-weight: 700;
+  color: #15161c;
+  margin-bottom: 8px;
+  display: block;
+}
+
+.config-select, .config-input {
+  width: 100%;
+  padding: 12px 15px;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  background-color: #fcfcfc;
+  font-size: 14px;
+  color: #15161c;
+  transition: all 0.3s;
+}
+
+.config-select:focus, .config-input:focus {
+  border-color: #d4af37;
+  outline: none;
+  background-color: #ffffff;
+}
+
+.config-options-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+  margin-bottom: 25px;
+}
+
+.config-option-box {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  cursor: pointer;
+  transition: all 0.2s;
+  display: flex;
+  flex-direction: column;
+}
+
+.config-option-box.active {
+  border-color: #d4af37;
+  background-color: rgba(212, 175, 55, 0.05);
+}
+
+.config-option-box .name {
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.config-option-box .price {
+  font-size: 13px;
+  color: #d4af37;
+  font-weight: 600;
+  margin-top: 5px;
+}
+
+/* Tracker UI */
+.tracker-wrapper {
+  background-color: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.04);
+  padding: 40px;
+  margin-top: 30px;
+}
+
+.tracker-search-box {
+  background-color: #fcfcfc;
+  border: 1px solid rgba(0,0,0,0.06);
+  padding: 25px;
+  margin-bottom: 40px;
+}
+
+.stepper-container {
+  position: relative;
+  margin: 40px 0;
+}
+
+.stepper-line {
+  position: absolute;
+  top: 25px;
+  left: 5%;
+  right: 5%;
+  height: 4px;
+  background-color: rgba(0, 0, 0, 0.08);
+  z-index: 1;
+}
+
+.stepper-line-active {
+  position: absolute;
+  top: 25px;
+  left: 5%;
+  width: 0%; /* Dynamic */
+  height: 4px;
+  background-color: #d4af37;
+  z-index: 2;
+  transition: width 0.8s ease-in-out;
+}
+
+.stepper-steps {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  z-index: 3;
+}
+
+.stepper-step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 15%;
+}
+
+.step-node {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  border: 4px solid rgba(0, 0, 0, 0.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 16px;
+  color: #888888;
+  transition: all 0.3s ease;
+}
+
+.stepper-step.completed .step-node {
+  border-color: #d4af37;
+  background-color: #d4af37;
+  color: #ffffff;
+}
+
+.stepper-step.active .step-node {
+  border-color: #d4af37;
+  background-color: #ffffff;
+  color: #d4af37;
+  box-shadow: 0 0 15px rgba(212, 175, 55, 0.4);
+}
+
+.step-label {
+  margin-top: 15px;
+  font-weight: 700;
+  font-size: 14px;
+  color: #15161c;
+}
+
+.step-status {
+  font-size: 12px;
+  color: #888888;
+  margin-top: 5px;
+}
+
+.stepper-step.completed .step-status {
+  color: #d4af37;
+  font-weight: 600;
+}
+
+.stepper-step.active .step-status {
+  color: #d4af37;
+  font-weight: 600;
+}
+
+.tracker-result-card {
+  border-left: 4px solid #d4af37;
+  background-color: #f9f9f9;
+  padding: 25px;
+  margin-top: 30px;
+}
+
+.tracker-badge {
+  display: inline-block;
+  padding: 6px 12px;
+  background-color: rgba(212, 175, 55, 0.1);
+  color: #d4af37;
+  font-weight: 700;
+  font-size: 12px;
+  border-radius: 0;
+  text-transform: uppercase;
+}
+
+@media (max-width: 767px) {
+  .stepper-line {
+    display: none;
+  }
+  .stepper-line-active {
+    display: none;
+  }
+  .stepper-steps {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    padding-left: 20px;
+    border-left: 4px solid rgba(0, 0, 0, 0.08);
+  }
+  .stepper-step {
+    flex-direction: row;
+    align-items: center;
+    text-align: left;
+    width: 100%;
+  }
+  .step-label {
+    margin-top: 0;
+    margin-left: 15px;
+  }
+  .step-status {
+    margin-top: 0;
+    margin-left: 15px;
+  }
 }

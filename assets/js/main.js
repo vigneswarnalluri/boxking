@@ -31,7 +31,9 @@
         /*-------------------------------------------------
             wow js init
         --------------------------------------------------*/
-        new WOW().init();
+        if (typeof WOW !== 'undefined') {
+            new WOW().init();
+        }
     });
 
     $(window).on('resize', function () {
@@ -58,9 +60,9 @@
                 var target = $(this.getAttribute('href'));
                 if (target.length) {
                     event.preventDefault();
-                    $('html, body').stop().animate({
-                    scrollTop: target.offset().top - 10
-                    }, 500);
+                    $('html, body').animate({
+                        scrollTop: (target.offset().top)
+                    }, 1000);
                 };
     
                 });
@@ -171,37 +173,39 @@
 
     /*---------- Scroll To Top ----------*/
     // progressAvtivation
-    if($('.scroll-top')) {    
+    if($('.scroll-top').length > 0) {    
         var scrollTopbtn = document.querySelector('.scroll-top');
         var progressPath = document.querySelector('.scroll-top path');
-        var pathLength = progressPath.getTotalLength();
-        progressPath.style.transition = progressPath.style.WebkitTransition = 'none';
-        progressPath.style.strokeDasharray = pathLength + ' ' + pathLength;
-        progressPath.style.strokeDashoffset = pathLength;
-        progressPath.getBoundingClientRect();
-        progressPath.style.transition = progressPath.style.WebkitTransition = 'stroke-dashoffset 10ms linear';		
-        var updateProgress = function () {
-            var scroll = $(window).scrollTop();
-            var height = $(document).height() - $(window).height();
-            var progress = pathLength - (scroll * pathLength / height);
-            progressPath.style.strokeDashoffset = progress;
-        }
-        updateProgress();
-        $(window).scroll(updateProgress);	
-        var offset = 50;
-        var duration = 750;
-        jQuery(window).on('scroll', function() {
-            if (jQuery(this).scrollTop() > offset) {
-                jQuery(scrollTopbtn).addClass('show');
-            } else {
-                jQuery(scrollTopbtn).removeClass('show');
+        if (progressPath) {
+            var pathLength = progressPath.getTotalLength();
+            progressPath.style.transition = progressPath.style.WebkitTransition = 'none';
+            progressPath.style.strokeDasharray = pathLength + ' ' + pathLength;
+            progressPath.style.strokeDashoffset = pathLength;
+            progressPath.getBoundingClientRect();
+            progressPath.style.transition = progressPath.style.WebkitTransition = 'stroke-dashoffset 10ms linear';		
+            var updateProgress = function () {
+                var scroll = $(window).scrollTop();
+                var height = $(document).height() - $(window).height();
+                var progress = pathLength - (scroll * pathLength / height);
+                progressPath.style.strokeDashoffset = progress;
             }
-        });				
-        jQuery(scrollTopbtn).on('click', function(event) {
-            event.preventDefault();
-            jQuery('html, body').animate({scrollTop: 0}, 1);
-            return false;
-        })
+            updateProgress();
+            $(window).scroll(updateProgress);	
+            var offset = 50;
+            var duration = 750;
+            jQuery(window).on('scroll', function() {
+                if (jQuery(this).scrollTop() > offset) {
+                    jQuery(scrollTopbtn).addClass('show');
+                } else {
+                    jQuery(scrollTopbtn).removeClass('show');
+                }
+            });				
+            jQuery(scrollTopbtn).on('click', function(event) {
+                event.preventDefault();
+                jQuery('html, body').animate({scrollTop: 0}, 1);
+                return false;
+            });
+        }
     }
 
     /*----------- Global Slider ----------*/

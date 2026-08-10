@@ -13,7 +13,7 @@
     <!--==============================
     Breadcumb Area
     ============================== -->
-    <div class="breadcumb-wrapper" data-bg-src="assets/img/bg/tracker-bg.png" style="background-color: #15161c; padding: 100px 0; position: relative;">
+    <div class="breadcumb-wrapper" data-bg-src="assets/img/bg/tracker-bg.png?v=1.1" style="background-color: #15161c; padding: 100px 0; position: relative;">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">

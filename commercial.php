@@ -80,7 +80,7 @@
                     <div class="portfolio-card style2 bg-white" style="box-shadow: 0 10px 30px rgba(0,0,0,0.03); border: 1px solid rgba(0,0,0,0.06); padding: 30px; height: 100%; display: flex; flex-direction: column; justify-content: space-between;">
                         <div>
                             <div class="portfolio-card-thumb mb-25" style="border-radius: 0; overflow: hidden; height: 260px;">
-                                <img src="assets/img/container_office.png" alt="Citadel Series" style="width: 100%; height: 100%; object-fit: cover;">
+                                <img src="assets/img/boxking/IMG_7609.jpeg" alt="Citadel Series" style="width: 100%; height: 100%; object-fit: cover;">
                             </div>
                             <span class="tracker-badge mb-10">CITADEL SERIES (COMMERCIAL)</span>
                             <h3 class="portfolio-card-title mt-2"><a href="#">The Citadel Office Unit</a></h3>
@@ -101,19 +101,19 @@
                     <div class="portfolio-card style2 bg-white" style="box-shadow: 0 10px 30px rgba(0,0,0,0.03); border: 1px solid rgba(0,0,0,0.06); padding: 30px; height: 100%; display: flex; flex-direction: column; justify-content: space-between;">
                         <div>
                             <div class="portfolio-card-thumb mb-25" style="border-radius: 0; overflow: hidden; height: 260px;">
-                                <img src="assets/img/diy_container_kit.png" alt="Squire Series" style="width: 100%; height: 100%; object-fit: cover;">
+                                <img src="assets/img/boxking/IMG_7614.jpeg" alt="Squire Series Cabin" style="width: 100%; height: 100%; object-fit: cover;">
                             </div>
-                            <span class="tracker-badge mb-10">SQUIRE SERIES (DIY KITS)</span>
-                            <h3 class="portfolio-card-title mt-2"><a href="#">The Squire DIY Modification Kit</a></h3>
-                            <h4 class="text-theme font-weight-bold my-3">Starting from $12,950</h4>
-                            <p class="portofolio-card-text mb-4">Pre-engineered steel container modification kits and structural components. Designed for businesses and builders looking to fabricate their own custom layouts with premium structural support.</p>
+                            <span class="tracker-badge mb-10">SQUIRE SERIES (PORTABLE CABINS)</span>
+                            <h3 class="portfolio-card-title mt-2"><a href="#">The Squire Portable Cabin Unit</a></h3>
+                            <h4 class="text-theme font-weight-bold my-3">Starting from $14,950</h4>
+                            <p class="portofolio-card-text mb-4">Turnkey, versatile site cabins and modular workspace pods. Includes insulated sandwich walls, built-in window and door, pre-wired electrical plugs, and low-maintenance vinyl flooring.</p>
                             <ul class="list-unstyled mb-4">
-                                <li class="mb-2"><i class="ri-checkbox-circle-fill text-theme me-2"></i> Laser-cut steel window &amp; door framing kits</li>
-                                <li class="mb-2"><i class="ri-checkbox-circle-fill text-theme me-2"></i> Pre-insulated framing panels (easy snap-in)</li>
-                                <li class="mb-2"><i class="ri-checkbox-circle-fill text-theme me-2"></i> Structural engineering stamps and layout plans</li>
+                                <li class="mb-2"><i class="ri-checkbox-circle-fill text-theme me-2"></i> Standard 20ft flat-pack modular frame</li>
+                                <li class="mb-2"><i class="ri-checkbox-circle-fill text-theme me-2"></i> Integrated EPS insulation panel system</li>
+                                <li class="mb-2"><i class="ri-checkbox-circle-fill text-theme me-2"></i> Pre-installed glass sliding window &amp; lockable door</li>
                             </ul>
                         </div>
-                        <button type="button" class="btn w-100 order-now-btn" data-product="Squire DIY Modification Kit" data-base-price="12950">ORDER / CONFIGURE NOW <i class="ri-arrow-right-up-line"></i></button>
+                        <button type="button" class="btn w-100 order-now-btn" data-product="Squire Portable Cabin Unit" data-base-price="14950">ORDER / CONFIGURE NOW <i class="ri-arrow-right-up-line"></i></button>
                     </div>
                 </div>
             </div>
@@ -145,7 +145,7 @@
                                     <input type="tel" class="form-control" name="phone" placeholder="Direct Phone Number" required="" style="background-color: #ffffff; border: 1px solid rgba(0,0,0,0.12); padding: 12px 15px;">
                                 </div>
                                 <div class="col-md-6 form-group mb-3">
-                                    <select name="scope" class="form-select" required="" style="background-color: #ffffff; border: 1px solid rgba(0,0,0,0.12); padding: 12px 15px; height: 50px;">
+                                    <select name="scope" class="form-select" required="" style="background-color: #ffffff; border: 1px solid rgba(0,0,0,0.12); padding: 0 15px; height: 50px; background-image: url('data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2212%22 height=%2212%22 fill=%22%23333333%22 viewBox=%220 0 16 16%22%3E%3Cpath d=%22M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z%22/%3E%3C/svg%3E'); background-repeat: no-repeat; background-position: right 15px center; background-size: 12px 10px;">
                                         <option value="" disabled="" selected="">Project Scope / Fleet Size</option>
                                         <option value="Single Site Office">Single Site Office Unit</option>
                                         <option value="Multi-Unit Fleet (2-5)">Multi-Unit Fleet (2-5 Units)</option>

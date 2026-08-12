@@ -17,7 +17,7 @@
                 <h1 class="sec-title">404 - We couldn't find that page</h1>
                 <p class="sec-text">The page you are looking for might have been removed, had its name changed, or is temporarily unavailable.</p>
             </div>
-            <div class="btn-group">
+            <div class="d-flex justify-content-center align-items-center text-center">
                 <a href="index.php" class="btn">Back to Home <i class="ri-arrow-right-up-line"></i></a>
             </div>
         </div>

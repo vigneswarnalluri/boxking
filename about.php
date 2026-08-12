@@ -236,23 +236,23 @@
     <div class="portfolio-area-1 space">
         <div class="container">
             <div class="title-area text-center">
-                <span class="sub-title"><img src="assets/img/icon/section-subtitle-icon.svg" alt="img">Recent Work</span>
-                <h2 class="sec-title">Check our latest projects</h2>
-                <p class="sec-text">We are the best construction agency in the world</p>
+                <span class="sub-title"><img src="assets/img/icon/section-subtitle-icon.svg" alt="img">BUILD QUALITY &amp; PROCESS</span>
+                <h2 class="sec-title">Craftsmanship &amp; Engineering Specs</h2>
+                <p class="sec-text">See how we build with certified heavy-duty steel welding, precise corner casting, and premium stud insulation.</p>
             </div>
             <div class="portfolio-slider1 overflow-hidden">
                 <div class="row gy-30 gx-30 global-carousel" data-slide-show="1" data-dots="true" data-xl-dots="true" data-ml-dots="true" data-lg-dots="true" data-md-dots="true" data-center-mode="true" data-xl-center-mode="true" data-ml-center-mode="true" data-center-padding="265px" data-xl-center-padding="265px" data-ml-center-padding="200px">
                     <div class="col-lg-6">
                         <div class="portfolio-card">
                             <div class="portfolio-card-thumb">
-                                <img src="assets/img/project/project1_1.png" alt="img">
-                                <a class="icon-btn popup-image" href="assets/img/project/project1_1.png"><i class="ri-eye-line"></i></a>
+                                <img src="assets/img/boxking/IMG_7431.jpeg" alt="Welding Process">
+                                <a class="icon-btn popup-image" href="assets/img/boxking/IMG_7431.jpeg"><i class="ri-eye-line"></i></a>
                             </div>
                             <div class="portfolio-card-details">
                                 <div class="media-left">
-                                    <span class="portfolio-card-subtitle">Building</span>
-                                    <h4 class="portfolio-card-title"><a href="project-details.php">General Construction</a></h4>
-                                    <p class="portofolio-card-text">Building since 09,01,2024</p>
+                                    <span class="portfolio-card-subtitle">Heavy Welding</span>
+                                    <h4 class="portfolio-card-title"><a href="project-details.php">Certified Shop Craftsmanship</a></h4>
+                                    <p class="portofolio-card-text">Heavy combination welding of structural steel frames</p>
                                 </div>  
                             </div>
                             <a href="project-details.php" class="btn">Explore Service <i class="ri-arrow-right-up-line"></i></a>                          
@@ -261,14 +261,14 @@
                     <div class="col-lg-6">
                         <div class="portfolio-card">
                             <div class="portfolio-card-thumb">
-                                <img src="assets/img/project/project1_2.png" alt="img">
-                                <a class="icon-btn popup-image" href="assets/img/project/project1_2.png"><i class="ri-eye-line"></i></a>
+                                <img src="assets/img/boxking/IMG_7426.jpeg" alt="Corner Casting Joint">
+                                <a class="icon-btn popup-image" href="assets/img/boxking/IMG_7426.jpeg"><i class="ri-eye-line"></i></a>
                             </div>
                             <div class="portfolio-card-details">
                                 <div class="media-left">
-                                    <span class="portfolio-card-subtitle">Building</span>
-                                    <h4 class="portfolio-card-title"><a href="project-details.php">General Construction</a></h4>
-                                    <p class="portofolio-card-text">Building since 09,01,2024</p>
+                                    <span class="portfolio-card-subtitle">Steel Framework</span>
+                                    <h4 class="portfolio-card-title"><a href="project-details.php">Industrial Corner Castings</a></h4>
+                                    <p class="portofolio-card-text">Heavy-duty corner casting joints engineered for load capacity</p>
                                 </div>  
                             </div>
                             <a href="project-details.php" class="btn">Explore Service <i class="ri-arrow-right-up-line"></i></a>                          
@@ -277,14 +277,14 @@
                     <div class="col-lg-6">
                         <div class="portfolio-card">
                             <div class="portfolio-card-thumb">
-                                <img src="assets/img/project/project1_3.png" alt="img">
-                                <a class="icon-btn popup-image" href="assets/img/project/project1_3.png"><i class="ri-eye-line"></i></a>
+                                <img src="assets/img/boxking/IMG_7610.jpeg" alt="Thermal Insulation">
+                                <a class="icon-btn popup-image" href="assets/img/boxking/IMG_7610.jpeg"><i class="ri-eye-line"></i></a>
                             </div>
                             <div class="portfolio-card-details">
                                 <div class="media-left">
-                                    <span class="portfolio-card-subtitle">Building</span>
-                                    <h4 class="portfolio-card-title"><a href="project-details.php">General Construction</a></h4>
-                                    <p class="portofolio-card-text">Building since 09,01,2024</p>
+                                    <span class="portfolio-card-subtitle">Thermal Insulation</span>
+                                    <h4 class="portfolio-card-title"><a href="project-details.php">EPS Insulated Stud Walls</a></h4>
+                                    <p class="portofolio-card-text">High-density polystyrene insulation panels between steel studs</p>
                                 </div>  
                             </div>
                             <a href="project-details.php" class="btn">Explore Service <i class="ri-arrow-right-up-line"></i></a>                          
@@ -293,14 +293,14 @@
                     <div class="col-lg-6">
                         <div class="portfolio-card">
                             <div class="portfolio-card-thumb">
-                                <img src="assets/img/project/project1_1.png" alt="img">
-                                <a class="icon-btn popup-image" href="assets/img/project/project1_1.png"><i class="ri-eye-line"></i></a>
+                                <img src="assets/img/boxking/IMG_7431.jpeg" alt="Welding Process">
+                                <a class="icon-btn popup-image" href="assets/img/boxking/IMG_7431.jpeg"><i class="ri-eye-line"></i></a>
                             </div>
                             <div class="portfolio-card-details">
                                 <div class="media-left">
-                                    <span class="portfolio-card-subtitle">Building</span>
-                                    <h4 class="portfolio-card-title"><a href="project-details.php">General Construction</a></h4>
-                                    <p class="portofolio-card-text">Building since 09,01,2024</p>
+                                    <span class="portfolio-card-subtitle">Heavy Welding</span>
+                                    <h4 class="portfolio-card-title"><a href="project-details.php">Certified Shop Craftsmanship</a></h4>
+                                    <p class="portofolio-card-text">Heavy combination welding of structural steel frames</p>
                                 </div>  
                             </div>
                             <a href="project-details.php" class="btn">Explore Service <i class="ri-arrow-right-up-line"></i></a>                          
@@ -309,14 +309,14 @@
                     <div class="col-lg-6">
                         <div class="portfolio-card">
                             <div class="portfolio-card-thumb">
-                                <img src="assets/img/project/project1_2.png" alt="img">
-                                <a class="icon-btn popup-image" href="assets/img/project/project1_2.png"><i class="ri-eye-line"></i></a>
+                                <img src="assets/img/boxking/IMG_7426.jpeg" alt="Corner Casting Joint">
+                                <a class="icon-btn popup-image" href="assets/img/boxking/IMG_7426.jpeg"><i class="ri-eye-line"></i></a>
                             </div>
                             <div class="portfolio-card-details">
                                 <div class="media-left">
-                                    <span class="portfolio-card-subtitle">Building</span>
-                                    <h4 class="portfolio-card-title"><a href="project-details.php">General Construction</a></h4>
-                                    <p class="portofolio-card-text">Building since 09,01,2024</p>
+                                    <span class="portfolio-card-subtitle">Steel Framework</span>
+                                    <h4 class="portfolio-card-title"><a href="project-details.php">Industrial Corner Castings</a></h4>
+                                    <p class="portofolio-card-text">Heavy-duty corner casting joints engineered for load capacity</p>
                                 </div>  
                             </div>
                             <a href="project-details.php" class="btn">Explore Service <i class="ri-arrow-right-up-line"></i></a>                          
@@ -325,14 +325,14 @@
                     <div class="col-lg-6">
                         <div class="portfolio-card">
                             <div class="portfolio-card-thumb">
-                                <img src="assets/img/project/project1_3.png" alt="img">
-                                <a class="icon-btn popup-image" href="assets/img/project/project1_3.png"><i class="ri-eye-line"></i></a>
+                                <img src="assets/img/boxking/IMG_7610.jpeg" alt="Thermal Insulation">
+                                <a class="icon-btn popup-image" href="assets/img/boxking/IMG_7610.jpeg"><i class="ri-eye-line"></i></a>
                             </div>
                             <div class="portfolio-card-details">
                                 <div class="media-left">
-                                    <span class="portfolio-card-subtitle">Building</span>
-                                    <h4 class="portfolio-card-title"><a href="project-details.php">General Construction</a></h4>
-                                    <p class="portofolio-card-text">Building since 09,01,2024</p>
+                                    <span class="portfolio-card-subtitle">Thermal Insulation</span>
+                                    <h4 class="portfolio-card-title"><a href="project-details.php">EPS Insulated Stud Walls</a></h4>
+                                    <p class="portofolio-card-text">High-density polystyrene insulation panels between steel studs</p>
                                 </div>  
                             </div>
                             <a href="project-details.php" class="btn">Explore Service <i class="ri-arrow-right-up-line"></i></a>                          

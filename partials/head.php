@@ -39,5 +39,5 @@ require_once __DIR__ . '/../config/bootstrap.php';
     <!-- Nice Select -->
     <link rel="stylesheet" href="assets/css/nice-select.min.css">
     <!-- Theme Custom CSS -->
-    <link rel="stylesheet" href="assets/css/style.css?v=1.6">
+    <link rel="stylesheet" href="assets/css/style.css?v=1.7">
 </head>

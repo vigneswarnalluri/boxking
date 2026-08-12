@@ -161,7 +161,7 @@
                                 <div class="col-lg-5">
                                     <div class="why-thumb-wrap3-1">
                                         <div class="why-tab-thumb">
-                                            <img src="assets/img/container_office.png" alt="Container Office">
+                                            <img src="assets/img/boxking/IMG_7609.jpeg" alt="Container Office">
                                         </div>
                                         <div class="why-text-wrap">
                                             <h4 class="title">Service</h4>
@@ -193,7 +193,7 @@
                                 <div class="col-lg-5">
                                     <div class="why-thumb-wrap3-1">
                                         <div class="why-tab-thumb">
-                                            <img src="assets/img/container_home.png" alt="Container Home">
+                                            <img src="assets/img/boxking/IMG_7387.jpeg" alt="Container Home">
                                         </div>
                                         <div class="why-text-wrap">
                                             <h4 class="title">Service</h4>
@@ -225,7 +225,7 @@
                                 <div class="col-lg-5">
                                     <div class="why-thumb-wrap3-1">
                                         <div class="why-tab-thumb">
-                                            <img src="assets/img/hero_container.png" alt="Portable Cabins">
+                                            <img src="assets/img/boxking/IMG_7614.jpeg" alt="Portable Cabins">
                                         </div>
                                         <div class="why-text-wrap">
                                             <h4 class="title">Service</h4>
@@ -257,7 +257,7 @@
                                 <div class="col-lg-5">
                                     <div class="why-thumb-wrap3-1">
                                         <div class="why-tab-thumb">
-                                            <img src="assets/img/about_modular.png" alt="Modular Buildings">
+                                            <img src="assets/img/boxking/IMG_7601.jpeg" alt="Modular Buildings">
                                         </div>
                                         <div class="why-text-wrap">
                                             <h4 class="title">Service</h4>
@@ -289,7 +289,7 @@
                                 <div class="col-lg-5">
                                     <div class="why-thumb-wrap3-1">
                                         <div class="why-tab-thumb">
-                                            <img src="assets/img/diy_container_kit.png" alt="Custom Fabrication">
+                                            <img src="assets/img/boxking/IMG_7425.jpeg" alt="Custom Fabrication">
                                         </div>
                                         <div class="why-text-wrap">
                                             <h4 class="title">Service</h4>
@@ -336,7 +336,7 @@
                         <h2 class="sec-title">Built with Strength, Precision &amp; Innovation</h2>
                     </div>
                     <div class="process-thumb2-1">
-                        <img src="assets/img/about_modular.png" alt="BoxKing Modular Quality">
+                        <img src="assets/img/boxking/IMG_7601.jpeg" alt="BoxKing Modular Quality">
                     </div>
                 </div>
                 <div class="col-lg-6">
@@ -402,8 +402,8 @@
                     <div class="col-lg-6">
                         <div class="portfolio-card">
                             <div class="portfolio-card-thumb">
-                                <img src="assets/img/diy_container_kit.png" alt="DIY Container Kits">
-                                <a class="icon-btn popup-image" href="assets/img/diy_container_kit.png"><i class="ri-eye-line"></i></a>
+                                <img src="assets/img/boxking/IMG_7425.jpeg" alt="DIY Container Kits">
+                                <a class="icon-btn popup-image" href="assets/img/boxking/IMG_7425.jpeg"><i class="ri-eye-line"></i></a>
                             </div>
                             <div class="portfolio-card-details">
                                 <div class="media-left">
@@ -418,8 +418,8 @@
                     <div class="col-lg-6">
                         <div class="portfolio-card">
                             <div class="portfolio-card-thumb">
-                                <img src="assets/img/container_office.png" alt="Container Office">
-                                <a class="icon-btn popup-image" href="assets/img/container_office.png"><i class="ri-eye-line"></i></a>
+                                <img src="assets/img/boxking/IMG_7609.jpeg" alt="Container Office">
+                                <a class="icon-btn popup-image" href="assets/img/boxking/IMG_7609.jpeg"><i class="ri-eye-line"></i></a>
                             </div>
                             <div class="portfolio-card-details">
                                 <div class="media-left">
@@ -434,8 +434,8 @@
                     <div class="col-lg-6">
                         <div class="portfolio-card">
                             <div class="portfolio-card-thumb">
-                                <img src="assets/img/container_home.png" alt="Container Home">
-                                <a class="icon-btn popup-image" href="assets/img/container_home.png"><i class="ri-eye-line"></i></a>
+                                <img src="assets/img/boxking/IMG_7387.jpeg" alt="Container Home">
+                                <a class="icon-btn popup-image" href="assets/img/boxking/IMG_7387.jpeg"><i class="ri-eye-line"></i></a>
                             </div>
                             <div class="portfolio-card-details">
                                 <div class="media-left">
@@ -450,8 +450,8 @@
                     <div class="col-lg-6">
                         <div class="portfolio-card">
                             <div class="portfolio-card-thumb">
-                                <img src="assets/img/hero_container.png" alt="Portable Cabins">
-                                <a class="icon-btn popup-image" href="assets/img/hero_container.png"><i class="ri-eye-line"></i></a>
+                                <img src="assets/img/boxking/IMG_7614.jpeg" alt="Portable Cabins">
+                                <a class="icon-btn popup-image" href="assets/img/boxking/IMG_7614.jpeg"><i class="ri-eye-line"></i></a>
                             </div>
                             <div class="portfolio-card-details">
                                 <div class="media-left">

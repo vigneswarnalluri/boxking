@@ -21,7 +21,7 @@
                 <div class="recent-post-wrap mt-40">
                     <div class="recent-post">
                         <div class="media-img">
-                            <a href="project-details.php"><img src="assets/img/container_office.png" alt="Container Office"></a>
+                            <a href="project-details.php"><img src="assets/img/boxking/IMG_7609.jpeg" alt="Container Office"></a>
                         </div>
                         <div class="media-body">
                             <h4 class="post-title"><a class="text-inherit" href="project-details.php">Container Office Units</a></h4>
@@ -32,7 +32,7 @@
                     </div>
                     <div class="recent-post">
                         <div class="media-img">
-                            <a href="project-details.php"><img src="assets/img/container_home.png" alt="Container Home"></a>
+                            <a href="project-details.php"><img src="assets/img/boxking/IMG_7387.jpeg" alt="Container Home"></a>
                         </div>
                         <div class="media-body">
                             <h4 class="post-title"><a class="text-inherit" href="project-details.php">Luxury Container Homes</a></h4>
@@ -43,7 +43,7 @@
                     </div>
                     <div class="recent-post">
                         <div class="media-img">
-                            <a href="project-details.php"><img src="assets/img/diy_container_kit.png" alt="DIY Kit"></a>
+                            <a href="project-details.php"><img src="assets/img/boxking/IMG_7425.jpeg" alt="DIY Kit"></a>
                         </div>
                         <div class="media-body">
                             <h4 class="post-title"><a class="text-inherit" href="project-details.php">DIY Container Kits</a></h4>

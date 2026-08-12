@@ -11,23 +11,23 @@
     <?php include './partials/header.php'?>
 
     <!--==============================
-    Breadcumb Area
+    Build Tracker Full-Width Hero Section
     ============================== -->
-    <div class="breadcumb-wrapper" data-bg-src="assets/img/bg/tracker-bg.png?v=1.1" style="background-color: #15161c; padding: 100px 0; position: relative;">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="breadcumb-content text-center">
-                        <h1 class="breadcumb-title text-white">Interactive Build Tracker</h1>
-                        <ul class="breadcumb-menu" style="display: flex; justify-content: center; gap: 15px; list-style: none;">
-                            <li><a href="index.php" class="text-white"><i class="ri-home-4-fill text-theme"></i> HOME</a></li>
-                            <li class="active text-theme">/ BUILD TRACKER</li>
-                        </ul>
-                    </div>
-                </div>
+    <section class="build-tracker-hero">
+        <img src="boxking_build_tracker_banner_1920x350.jpg?v=1.4" alt="BoxKing Interactive Build Tracker Banner" class="hero-bg-img">
+        <div class="hero-overlay"></div>
+        <div class="hero-title-wrapper">
+            <h1 class="hero-title">Interactive Build Tracker</h1>
+        </div>
+        <div class="hero-breadcrumb-wrapper">
+            <div class="container">
+                <ul class="breadcumb-menu">
+                    <li><a href="index.php"><i class="ri-home-4-fill"></i> HOME</a></li>
+                    <li class="active">/ BUILD TRACKER</li>
+                </ul>
             </div>
         </div>
-    </div>
+    </section>
 
     <!--==============================
     Tracker Content Area
